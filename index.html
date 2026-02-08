@@ -70,9 +70,10 @@
             <p>Na assistência tecnica eu realizava a manutenção dos equipamentos com defeito que voltava de clientes da Khomp.</p>
             <p>Como Analista de testes realizava teste em produtos para garatir a qualidade do funcionamento, reportando bugs, <br>
             falhas e sugerindo melhorias.</p>
-            <p>Por fim, a função de Analista de projetos realizava abertura de projetos novos, desenvolvendo da TAP, criação do cronograma,<br>acompnhamento quinzenal dos projetos para controle de prazos e entregas de documentos de comprovação de conclusão e <br>tarefas e marcos importantes dos projetos. 
-            <br>Trabalhava com estruras de projetos diferentes, projetos OEM, Projetos de P&D e Projetos de Software.
-              </p>
+            <p>Por fim, a função de Analista de projetos realizava abertura de projetos novos, desenvolvendo da TAP, criação do cronograma,<br>
+            acompnhamento quinzenal dos projetos para controle de prazos e entregas de documentos de comprovação de conclusão e <br>
+            tarefas e marcos importantes dos projetos. 
+            <br>Trabalhava com estruras de projetos diferentes, projetos OEM, Projetos de P&D e Projetos de Software.</p>
 
         </article>
     </section>
@@ -106,7 +107,6 @@
 
             </tbody>
         </table>
-
 
     </section>
     <footer>
@@ -147,10 +147,66 @@
                 
             </form>
 
-
-
-
         </section>
+        <section>
+            <form action="">
+                <h4>Preencha os campos abaixo para se candidatar a vaga.</h4>
+                
+                <label for="nome">Nome Completo: </label>
+                <input type="text" name="nome" id="nome" required><br><br>
+                
+                <label for="email">E-mail: </label>
+                <input type="text" name="email" id="email" required><br><br>
+
+                
+                <label for="nascimento">Data de Nascimento: </label>
+                <input type="date" name="nascimento" id="nascimento" required><br><br>
+                
+                <label for="materia">Candidatar a Matéria: </label>
+                <select name="materia" id="materia" required>
+                    <option value="matematica">Matemática</option>
+                    <option value="português">Português</option>
+                    <option value="biologia">Biologia</option>
+                    <option value="ciencias">Ciências</option>
+                    <option value="historia">História</option>
+                    <option value="geografia">Geografia</option>
+
+                </select> <br><br>
+
+                <label for="turno">Turno: </label>
+
+                <input type="radio" id="matutino" name="turno" value="matutino" required>
+                <label for="matutino">Matutino</label>
+
+                <input type="radio" id="vespertino" name="turno" value="vespertino"required>
+                <label for="vespertino">Vespertino</label>
+
+                <input type="radio" id="noturno" name="turno" value="noturno"required>
+                <label for="noturno">Noturno</label> <br><br>
+
+
+
+                <label for="nivel">Nível: </label>
+                <select name="nivel" id="nivel" required>
+                    <option value="superior">Ensino Superior Completo</option>
+                    <option value="cursando mestrado">Cursando Mestrado</option>
+                    <option value="mestrado">Mestrado Completo</option>
+                    <option value="cursando doutorado">Cursando Doutorado</option>
+                    <option value="doutorado">Doutorado Completo</option> <br><br>
+
+                </select><br><br>
+                              
+                <label for="descricao">Breve Descrição Sua:</label>
+                <textarea name="descricao" id="descricao" cols="200" rows="10" required></textarea><br><br>
+
+                <input type="checkbox" name="oportunidades" id="oportunidades">
+                <label for="oportunidades">Quer receber informação sobre novas  de vagas?</label> <br>
+                
+                <input type="submit" value="Enviar Candidatura">
+
+            </form>
+        </section>
+
     </footer>
 
 </body>
